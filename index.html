@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <div class="header">
+      <h2>Rock Paper Scissors</h2>
+      <div class="box">
+        <p>Score</p>
+        <h2 id="Score-collect">0</h2>
+      </div>
+    </div>
+    <div class="game">
+      <div id="triangle">
+        <img src="images/bg-triangle.svg" alt="triangle">
+        <div class="btn paper" id="paper">
+          <img src="images/icon-paper.svg" alt="paper">
+        </div>
+        <div class="btn scissors" id="scissors">
+          <img src="images/icon-scissors.svg" alt="scissors">
+        </div>
+        <div class="btn rock" id="rock">
+          <img src="images/icon-rock.svg" alt="rock">
+        </div>
+      </div>
+      <div class="user-choice">
+        <div class="user-selected selection">
+          <h2>you picked</h2>
+        </div>
+        <div class="game-end">
+          <p class="result">Play on Move</p>
+          <button class="btn-play">Play Again</button>
+        </div>
+        <div class="comp-selected selection">
+          <h2>The House picked</h2>
+          <div class="selection-img" id="removeComp"></div>
+        </div>
+      </div>
+      <div class="rule-box">
+        <div class="box-header">
+          <h2>Rules</h2>
+          <div class="close"><img src="images/icon-close.svg" alt="close"></div></div>
+          <div class="rule-img"><img src="images/image-rules.svg" alt="Rules"></div>
+        </div>
+      </div>
+      
+      <div class="rule">Rules</div>
+    </main>
+    
+    
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>. -->
+    </div>
+  </body>
+  </html>
