@@ -4,5 +4,5 @@
 
 # Links
 
-- Solution URL: 
+- Solution URL: https://github.com/Mosnad-Web01/Jalal-rock-paper-scissors-master/
 - Live Site URL: https://mosnad-web01.github.io/Jalal-rock-paper-scissors-master/
